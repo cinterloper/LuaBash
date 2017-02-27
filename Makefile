@@ -5,7 +5,7 @@ CC=gcc
 SDIR=src
 ODIR=build
 DDIR=doc
-CFLAGS= -L/usr/include/luajit-2.0/ -lluajit-5.1 -shared -fPIC -Wall 
+CFLAGS= -L/usr/include/luajit-2.1/ -lluajit-5.1 -shared -fPIC -Wall 
 preffix=/usr/share
 # END
 
